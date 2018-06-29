@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.0
+FROM nvidia/cuda
 
 RUN apt-get update && \
     apt-get install -y cmake libncurses5-dev git && \
